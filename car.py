@@ -20,7 +20,7 @@ class Car:
 
 # define a crv car.
 crv = Car()
-crv.accelerate(0, 10)
+crv.accelerate(10, 10)
 
 print(crv.velocity)
 
