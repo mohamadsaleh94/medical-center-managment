@@ -13,7 +13,9 @@ class Car:
         acceleration ([float]): the acceleration value
         time ([time]): the time of the acceleration
 
-    """     
+    """
+    if not acceleration:
+      raise ValueError('Acceleration should not be 0.')   
     self.velocity += acceleration * time   
 
 # define a crv car.
